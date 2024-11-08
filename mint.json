@@ -80,7 +80,12 @@
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete",
-        "api-reference/endpoint/tax-estimate"
+        "api-reference/endpoint/tax-estimate",
+        "api-reference/endpoint/address",
+        "api-reference/endpoint/creditnote",
+        "api-reference/endpoint/health",
+        "api-reference/endpoint/invoice",
+        "api-reference/endpoint/authentication"
       ]
     }
   ],
