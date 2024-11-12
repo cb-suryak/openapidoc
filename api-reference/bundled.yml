@@ -74,6 +74,46 @@ tags:
   - name: Health
     description: Endpoints to monitor the health of the Tax Service Provider and the Tax Service Adapter.
 paths:
+  /plant:
+    get:
+      summary: Fetch the plant of the Service Provider.
+      description: This endpoint is used to fetch the plant of the Service Provider.
+      operationId: fetchplant
+      tags:
+        - Health
+      security:
+        - {}
+      responses:
+        '200':
+          description: Service is healthy.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthCheckResponse'
+              example:
+                status: UP
+                version: 1.0.0
+                description: The service is healthy.
+                components:
+                  - id: app-db-memory
+                    name: Application Database
+                    type: DATABASE
+                    status: UP
+                  - id: adapter-server
+                    name: Adapter API Server
+                    type: ADAPTER
+                    status: UP
+                  - id: service-server
+                    name: API Server
+                    type: API
+                    status: UP
+                time: '2022-11-01T10:42:08.131+05:30'
+        '429':
+          $ref: '#/components/responses/Error429'
+        '500':
+          $ref: '#/components/responses/Error500'
+        '503':
+          $ref: '#/components/responses/Error503'
   /health:
     get:
       summary: Fetch the health status of the Service Provider.
