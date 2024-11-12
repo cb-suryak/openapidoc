@@ -37,7 +37,7 @@
       "openapi": "./api-reference/bundled.yml",
       "url": "api-reference",
       "icon": "square-terminal"
-    }
+    },
     {
       "name": "Documentation",
       "icon": "book-open-cover",
