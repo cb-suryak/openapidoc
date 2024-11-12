@@ -387,7 +387,7 @@ paths:
       - TaxEstimate
       x-content-type: application/json
       x-accepts: application/json
-  /invoices:
+  /invoices/v11:
     post:
       description: This endpoint is used to send an invoice to the Tax Service Provider.
         Invoices created in Chargebee are statements of amounts owed by the Customer
