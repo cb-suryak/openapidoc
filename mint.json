@@ -33,6 +33,12 @@
   ],
   "anchors": [
     {
+      "name": "API Reference",
+      "openapi": "./api-reference/bundled.yml",
+      "url": "api-reference",
+      "icon": "square-terminal"
+    }
+    {
       "name": "Documentation",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
@@ -91,5 +97,5 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
   },
-  "openapi": "bundled.json"
+  "openapi": "./api-reference/bundled.yml"
 }
