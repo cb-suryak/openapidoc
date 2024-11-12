@@ -80,7 +80,7 @@ paths:
       description: This endpoint is used to fetch the plant of the Service Provider.
       operationId: fetchplant
       tags:
-        - Health
+        - Plant
       security:
         - {}
       responses:
