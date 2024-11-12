@@ -138,7 +138,7 @@ paths:
       tags:
       - Health
       x-accepts: application/json
-  /credentials/validate:
+  /credentials/validate/v1:
     post:
       description: This endpoint is used to validate the credentials used to call
         the Service Provider.
