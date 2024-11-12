@@ -4,7 +4,8 @@
     "openapi": {
       "rootDir": "reference",
       "include": [
-        "bundled.json"
+        "**",
+        "!openapi.json"
       ]
     },
     "json_schema": {
