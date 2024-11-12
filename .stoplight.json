@@ -1,11 +1,10 @@
 {
-  "exclude": [],
+  "exclude": ["reference/openapi.json"],
   "formats": {
     "openapi": {
       "rootDir": "reference",
       "include": [
-        "**",
-        "!openapi.json"
+        "**"
       ]
     },
     "json_schema": {
