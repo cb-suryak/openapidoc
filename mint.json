@@ -34,7 +34,7 @@
   "anchors": [
     {
       "name": "API Reference",
-      "openapi": "./api-reference/bundled.yml",
+      "openapi": "/api-reference/bundled.yml",
       "url": "api-reference",
       "icon": "square-terminal"
     },
@@ -97,5 +97,5 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
   },
-  "openapi": "./api-reference/bundled.yml"
+  "openapi": "/api-reference/bundled.yml"
 }
