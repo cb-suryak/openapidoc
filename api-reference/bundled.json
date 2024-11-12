@@ -54,7 +54,7 @@
             "get": {
                 "summary": "Fetch the plant of the Service Provider.",
                 "description": "This endpoint is used to fetch the plant of the Service Provider.",
-                "operationId": "fetchHealth",
+                "operationId": "fetchplant",
                 "tags": [
                     "Plant"
                 ],
@@ -63,7 +63,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Service is healthy.",
+                        "description": "Service is planty.",
                         "content": {
                             "application/json": {
                                 "schema": {
