@@ -665,7 +665,7 @@ paths:
       tags:
       - Invoice
       x-accepts: application/json
-  /credit-notes:
+  /credit-notes/v2:
     post:
       description: "This endpoint is used to send a credit note to the Tax Service\
         \ Adapter. A credit note is used to reduce the amount due on an invoice. If\
