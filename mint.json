@@ -87,10 +87,20 @@
     "pages": [
       "api-reference/introduction",
       "api-reference/taxadapterspi",
-      "api-reference/locationvalidation",
-      "api-reference/taxversion"
+      "api-reference/locationValidation",
+      "api-reference/openapi_tax_versions"
     ]
-    }
+    },
+
+    {"group": "Endpoints",
+         "pages": [
+           "api-reference/endpoint/tax-estimate",
+         "api-reference/endpoint/invoice",
+           "api-reference/endpoint/creditnote",
+           "api-reference/endpoint/authentication",
+           "api-reference/endpoint/health"
+          ]
+      }
   ],
 
   "footerSocials": {
