@@ -95,13 +95,16 @@
     {"group": "Endpoints",
          "pages": [
            "api-reference/endpoint/estimate-tax",
-         "api-reference/endpoint/validate-credentials",
+           "api-reference/endpoint/validate-credentials",
            "api-reference/endpoint/creditnote",
            "api-reference/endpoint/authentication",
            "api-reference/endpoint/health"
           ]
       }
   ],
+
+  "openapi": ["/api-reference/bundled.yml", "/api-reference/locationValidation.yaml", "/api-reference/openapi_tax_versions.yaml"],
+
 
   "footerSocials": {
     "x": "https://x.com/mintlify",
