@@ -83,7 +83,8 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/fetch-the-health-status-of-the-service-provider"
+        "api-reference/endpoint/fetch-the-health-status-of-the-service-provider",
+        "api-reference/endpoint/address-validation"
       ]
     }
   ],
