@@ -30,7 +30,7 @@
   "anchors": [
     {
       "name": "Tax Adapter SPI",
-      "openapi": "api-reference/bundled.yml",
+      "openapi": "/api-reference/bundled.yml",
       "url": "api-reference/taxadapterspi",
       "icon": "square-terminal"
     },
