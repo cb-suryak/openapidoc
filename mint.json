@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Chargbeee Parter docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/brand-guidelines-logo3.svg",
+    "light": "/logo/brand-guidelines-logo3.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -18,13 +18,9 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "support@chargebee.com"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
   "tabs": [
     {
       "name": "API Reference",
@@ -91,37 +87,12 @@
       "pages": [
         "api-reference/introduction"
       ]
-    },
-
-    {"group": "Endpoints",
-          "pages": [
-            "api-reference/core/tax-estimate",
-            "api-reference/core/invoice",
-            "api-reference/core/creditnote",
-            "api-reference/core/authentication"
-          ]
-    },
-
-    {
-      "group": "Endpoints",
-      "pages": [
-        "api-reference/location/address"
-      ]
-    },
-
-    {
-      "group": "Endpoints",
-      "pages": [
-        "api-reference/tax/health"
-      ]
     }
-    
   ],
 
   "footerSocials": {
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
-  },
-  "openapi": "/api-reference/bundled.yml"
+  }
 }
