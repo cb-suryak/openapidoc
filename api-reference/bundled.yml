@@ -117,7 +117,8 @@ paths:
   /health:
     get:
       summary: Fetch the health status of the Service Provider.
-      description: This endpoint is used to fetch the health status of the Service Provider.
+      x-mintlify-metadata:
+        page: api-reference/endpoints/health
       operationId: fetchHealth
       tags:
         - Health

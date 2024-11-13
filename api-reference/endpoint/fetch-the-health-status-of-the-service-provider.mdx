@@ -1,3 +1,59 @@
 ---
-openapi: get /health
+title: 'Health Check'
+api: 'GET /health'
+description: 'Get the health status of the Service Provider'
 ---
+
+## Overview
+The health check endpoint provides real-time information about the operational status of the Service Provider and its components.
+
+## Technical Details
+This endpoint performs a comprehensive health check of the service and returns detailed status information about various system components including the database, adapter services, and API servers.
+
+## Component Statuses
+
+### Database Status
+- Component ID: `app-db-memory`
+- Indicates database connectivity and operational status
+- Status "UP" confirms normal database operations
+
+### Adapter Service Status
+- Component ID: `adapter-server`
+- Monitors the Adapter API Server's availability
+- Status "UP" indicates proper adapter functionality
+
+### API Server Status
+- Component ID: `service-server`
+- Reflects the main API server's operational state
+- Status "UP" confirms the API server is functioning correctly
+
+## Response Example
+
+<ResponseExample>
+```json
+{
+    "status": "UP",
+    "version": "1.0.0",
+    "description": "The service is healthy.",
+    "components": [
+        {
+            "id": "app-db-memory",
+            "name": "Application Database",
+            "type": "DATABASE",
+            "status": "UP"
+        },
+        {
+            "id": "adapter-server",
+            "name": "Adapter API Server",
+            "type": "ADAPTER",
+            "status": "UP"
+        },
+        {
+            "id": "service-server",
+            "name": "API Server",
+            "type": "API",
+            "status": "UP"
+        }
+    ],
+    "time": "2022-11-01T10:42:08.131+05:30"
+}
