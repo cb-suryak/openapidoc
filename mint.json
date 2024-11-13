@@ -40,13 +40,13 @@
     },
     {
       "name": "API Reference",
-      "openapi": "/api-reference/locationValidation.yml",
+      "openapi": "/api-reference/locationValidation.yaml",
       "url": "api-reference",
       "icon": "square-terminal"
     },
     {
       "name": "API Reference",
-      "openapi": "/api-reference/openapi_tax_versions.yml",
+      "openapi": "/api-reference/openapi_tax_versions.yaml",
       "url": "api-reference",
       "icon": "square-terminal"
     },
