@@ -29,19 +29,19 @@
   ],
   "anchors": [
     {
-      "name": "Tax Adapter SPI",
+      "name": "API Reference",
       "openapi": "/api-reference/bundled.yml",
       "url": "api-reference",
       "icon": "square-terminal"
     },
     {
-      "name": "Location Validation",
+      "name": "API Reference",
       "openapi": "/api-reference/locationValidation.yaml",
       "url": "api-reference",
       "icon": "map-pin"
     },
     {
-      "name": "Tax Version",
+      "name": "API Reference",
       "openapi": "/api-reference/openapi_tax_versions.yaml",
       "url": "api-reference",
       "icon": "calculator"
@@ -85,10 +85,7 @@
     {
       "group": "API Documentation",
     "pages": [
-      "api-reference/introduction",
-      "api-reference/taxadapterspi",
-      "api-reference/locationValidation",
-      "api-reference/openapi_tax_versions"
+      "api-reference/introduction"
     ]
     },
 
