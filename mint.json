@@ -91,8 +91,30 @@
       "pages": [
         "api-reference/introduction"
       ]
-    }
+    },
 
+    {"group": "Endpoints",
+          "pages": [
+            "api-reference/core/tax-estimate",
+            "api-reference/core/invoice",
+            "api-reference/core/creditnote",
+            "api-reference/core/authentication"
+          ]
+    },
+
+    {
+      "group": "Endpoints",
+      "pages": [
+        "api-reference/location/address"
+      ]
+    },
+
+    {
+      "group": "Endpoints",
+      "pages": [
+        "api-reference/tax/health"
+      ]
+    }
     
   ],
 
