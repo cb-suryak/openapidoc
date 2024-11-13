@@ -39,6 +39,18 @@
       "icon": "square-terminal"
     },
     {
+      "name": "API Reference",
+      "openapi": "/api-reference/locationValidation.yml",
+      "url": "api-reference",
+      "icon": "square-terminal"
+    },
+    {
+      "name": "API Reference",
+      "openapi": "/api-reference/openapi_tax_versions.yml",
+      "url": "api-reference",
+      "icon": "square-terminal"
+    },
+    {
       "name": "Documentation",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
