@@ -117,8 +117,6 @@ paths:
   /health:
     get:
       summary: Fetch the health status of the Service Provider.
-      x-mintlify-metadata:
-        page: api-reference/endpoints/fetch-the-health-status-of-the-service-provider
       operationId: fetchHealth
       tags:
         - Health
@@ -155,6 +153,8 @@ paths:
           $ref: '#/components/responses/Error500'
         '503':
           $ref: '#/components/responses/Error503'
+      x-mintlify-metadata:
+        page: api-reference/docs/fetch-the-health-status-of-the-service-provider
   /credentials/validate:
     post:
       summary: Validate credentials
