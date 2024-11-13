@@ -95,6 +95,7 @@
         "api-reference/introduction",
         {
           "group": "Core API",
+          "openapi": "/api-reference/bundled.yml",
           "pages": [
             "api-reference/core/introduction",
             "api-reference/core/tax-estimate",
@@ -105,6 +106,7 @@
         },
         {
           "group": "Location Validation API",
+          "openapi": "/api-reference/locationValidation.yaml",
           "pages": [
             "api-reference/location/introduction",
             "api-reference/location/address"
@@ -112,30 +114,13 @@
         },
         {
           "group": "Tax Versions API",
+          "openapi": "/api-reference/openapi_tax_versions.yaml",
           "pages": [
             "api-reference/tax/introduction",
             "api-reference/tax/health"
           ]
         }
       ]
-    }
-  ],
-
-  "openapi": [
-    {
-      "name": "Core API",
-      "file": "/api-reference/bundled.yml",
-      "baseUrl": "api-reference/core"
-    },
-    {
-      "name": "Location Validation API",
-      "file": "/api-reference/locationValidation.yaml",
-      "baseUrl": "api-reference/location"
-    },
-    {
-      "name": "Tax Versions API",
-      "file": "/api-reference/openapi_tax_versions.yaml",
-      "baseUrl": "api-reference/tax"
     }
   ],
 
