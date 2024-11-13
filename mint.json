@@ -94,7 +94,7 @@
 
     {"group": "Tax Adapter SPI",
          "pages": [
-           "api-reference/endpoint/estimate-tax",
+           "api-reference/endpoint/address-validation",
            "api-reference/endpoint/validate-credentials",
            "api-reference/endpoint/creditnote",
            "api-reference/endpoint/authentication",
