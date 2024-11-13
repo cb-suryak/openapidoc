@@ -116,9 +116,9 @@ paths:
           $ref: '#/components/responses/Error503'
   /health:
     get:
-      x-mintlify-metadata:
-        page: api-reference/docs/fetch-the-health-status-of-the-service-provider
       summary: Fetch the health status of the Service Provider.
+      description:
+        $ref: './docs/fetch-the-health-status-of-the-service-provider.md'
       operationId: fetchHealth
       tags:
         - Health
