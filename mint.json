@@ -101,6 +101,7 @@
           "api-reference/address/address-validation",
            "api-reference/address/check-taxability",
            "api-reference/taxestimate/estimate-tax",
+           "api-reference/taxestimate/estimate-tax-1",
            "api-reference/invoice/create-invoice",
            "api-reference/invoice/retrieve-invoice",
            "api-reference/invoice/commit-invoice",
@@ -108,7 +109,9 @@
            "api-reference/creditnote/create-credit-note",
            "api-reference/creditnote/retrieve-credit-note",
            "api-reference/creditnote/commit-credit-note",
-           "api-reference/creditnote/void-credit-note"
+           "api-reference/creditnote/void-credit-note",
+           "api-reference/authentication/validate-credentials",
+           "api-reference/health/fetch-the-health-status-of-the-service-provider"
        ]
    }
   ],
