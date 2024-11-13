@@ -31,19 +31,19 @@
     {
       "name": "Tax Adapter SPI",
       "openapi": "/api-reference/bundled.yml",
-      "url": "api-reference/taxadapterspi",
+      "url": "api-reference",
       "icon": "square-terminal"
     },
     {
       "name": "Location Validation",
       "openapi": "/api-reference/locationValidation.yaml",
-      "url": "api-reference/locationvalidation",
+      "url": "api-reference",
       "icon": "map-pin"
     },
     {
       "name": "Tax Version",
       "openapi": "/api-reference/openapi_tax_versions.yaml",
-      "url": "api-reference/taxversion",
+      "url": "api-reference",
       "icon": "calculator"
     },
     {
