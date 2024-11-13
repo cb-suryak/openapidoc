@@ -92,7 +92,7 @@
     ]
     },
 
-    {"group": "Endpoints",
+    {"group": "Tax Adapter SPI",
          "pages": [
            "api-reference/endpoint/estimate-tax",
            "api-reference/endpoint/validate-credentials",
