@@ -76,10 +76,16 @@
            "api-reference/endpoint/address-validation",
            "api-reference/endpoint/check-taxability",
            "api-reference/endpoint/estimate-tax",
+           "api-reference/endpoint/create-invoice",
+           "api-reference/endpoint/retrieve-invoice",
+           "api-reference/endpoint/commit-invoice",
+           "api-reference/endpoint/void-invoice",
+           "api-reference/endpoint/create-credit-note",
+           "api-reference/endpoint/retrieve-credit-note",
+           "api-reference/endpoint/commit-credit-note",
+           "api-reference/endpoint/void-credit-note",
            "api-reference/endpoint/validate-credentials",
-           "api-reference/endpoint/creditnote",
-           "api-reference/endpoint/authentication",
-           "api-reference/endpoint/health"
+           "api-reference/endpoint/fetch-the-health-status-of-the-service-provider"
           ]
       }
   ],
