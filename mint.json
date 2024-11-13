@@ -94,8 +94,8 @@
 
     {"group": "Endpoints",
          "pages": [
-           "api-reference/endpoint/tax-estimate",
-         "api-reference/endpoint/invoice",
+           "api-reference/endpoint/estimate-tax",
+         "api-reference/endpoint/validate-credentials",
            "api-reference/endpoint/creditnote",
            "api-reference/endpoint/authentication",
            "api-reference/endpoint/health"
