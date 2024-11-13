@@ -90,7 +90,7 @@
       },
       {"group": "Location Validation",
       "pages": [
-        "api-reference/authentication/validate-credentials.mdx",
+        "api-reference/authentication/validate-credentials",
         "api-reference/health/fetch-the-health-status-of-the-service-provider",
         "api-reference/locationvalidate/validate-the-location-of-customer-with-given-evidences"
        ]
