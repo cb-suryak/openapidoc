@@ -92,9 +92,5 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
   },
-  "openapi": {
-    "path": "/api-reference//bundled.yml",
-    "generateMarkdownPages": true,
-    "markdownPath": "/api-reference/endpoints"
-  }
+  "openapi": "/api-reference/bundled.yml"
 }
