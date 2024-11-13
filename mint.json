@@ -87,6 +87,55 @@
       "pages": [
         "api-reference/introduction"
       ]
+    },
+
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/introduction",
+        {
+          "group": "Core API",
+          "pages": [
+            "api-reference/core/introduction",
+            "api-reference/core/tax-estimate",
+            "api-reference/core/invoice",
+            "api-reference/core/creditnote",
+            "api-reference/core/authentication"
+          ]
+        },
+        {
+          "group": "Location Validation API",
+          "pages": [
+            "api-reference/location/introduction",
+            "api-reference/location/address"
+          ]
+        },
+        {
+          "group": "Tax Versions API",
+          "pages": [
+            "api-reference/tax/introduction",
+            "api-reference/tax/health"
+          ]
+        }
+      ]
+    }
+  ],
+
+  "openapi": [
+    {
+      "name": "Core API",
+      "file": "/api-reference/bundled.yml",
+      "baseUrl": "api-reference/core"
+    },
+    {
+      "name": "Location Validation API",
+      "file": "/api-reference/locationValidation.yaml",
+      "baseUrl": "api-reference/location"
+    },
+    {
+      "name": "Tax Versions API",
+      "file": "/api-reference/openapi_tax_versions.yaml",
+      "baseUrl": "api-reference/tax"
     }
   ],
 
