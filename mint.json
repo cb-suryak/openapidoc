@@ -83,8 +83,12 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/fetch-the-health-status-of-the-service-provider",
-        "api-reference/endpoint/address-validation"
+        "api-reference/endpoint/tax-estimate",
+        "api-reference/endpoint/address",
+        "api-reference/endpoint/creditnote",
+        "api-reference/endpoint/health",
+        "api-reference/endpoint/invoice",
+        "api-reference/endpoint/authentication"
       ]
     }
   ],
