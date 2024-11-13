@@ -30,7 +30,7 @@
   "anchors": [
     {
       "name": "Tax Adapter SPI",
-      "openapi": "/api-reference/bundled.yml",
+      "openapi": "api-reference/bundled.yml",
       "url": "api-reference/taxadapterspi",
       "icon": "square-terminal"
     },
@@ -86,40 +86,6 @@
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
-      ]
-    },
-
-    {
-      "group": "API Reference",
-      "pages": [
-        "api-reference/introduction",
-        {
-          "group": "Core API",
-          "openapi": "/api-reference/bundled.yml",
-          "pages": [
-            "api-reference/core/introduction",
-            "api-reference/core/tax-estimate",
-            "api-reference/core/invoice",
-            "api-reference/core/creditnote",
-            "api-reference/core/authentication"
-          ]
-        },
-        {
-          "group": "Location Validation API",
-          "openapi": "/api-reference/locationValidation.yaml",
-          "pages": [
-            "api-reference/location/introduction",
-            "api-reference/location/address"
-          ]
-        },
-        {
-          "group": "Tax Versions API",
-          "openapi": "/api-reference/openapi_tax_versions.yaml",
-          "pages": [
-            "api-reference/tax/introduction",
-            "api-reference/tax/health"
-          ]
-        }
       ]
     }
   ],
