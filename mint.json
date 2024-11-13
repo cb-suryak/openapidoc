@@ -74,6 +74,7 @@
     {"group": "Tax Adapter SPI",
          "pages": [
            "api-reference/endpoint/address-validation",
+           "api-reference/endpoint/check-taxability",
            "api-reference/endpoint/validate-credentials",
            "api-reference/endpoint/creditnote",
            "api-reference/endpoint/authentication",
