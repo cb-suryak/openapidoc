@@ -65,9 +65,11 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Partner SPI",
     "pages": [
-      "api-reference/introduction"
+      "api-reference/introduction",
+      "api-reference/Overview",
+      "api-reference/Authorization"
     ]
     },
 
