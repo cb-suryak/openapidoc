@@ -2,10 +2,7 @@
 stoplight-id: 59vt70pmkm4j3
 ---
 
----
-title: 'Overview'
-description: 'Learn how to integrate tax services with Chargebee for automated tax calculations'
----
+# Overview
 
 <Note>
   This guide explains how to integrate external tax services with Chargebee using the Tax Service Provider Interface (SPI).
