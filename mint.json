@@ -82,43 +82,115 @@
               "api-reference/endpoint/check-taxability"
             ]
           },
-           "api-reference/endpoint/estimate-tax",
-           "api-reference/endpoint/create-invoice",
-           "api-reference/endpoint/retrieve-invoice",
-           "api-reference/endpoint/commit-invoice",
-           "api-reference/endpoint/void-invoice",
-           "api-reference/endpoint/create-credit-note",
-           "api-reference/endpoint/retrieve-credit-note",
-           "api-reference/endpoint/commit-credit-note",
-           "api-reference/endpoint/void-credit-note",
-           "api-reference/endpoint/validate-credentials",
-           "api-reference/endpoint/fetch-the-health-status-of-the-service-provider"
+          {
+            "group": "TaxEstimate",
+            "pages": [
+              "api-reference/endpoint/estimate-tax"
+            ]
+          },
+          {
+            "group": "Invoice",
+            "pages": [
+              "api-reference/endpoint/create-invoice",
+              "api-reference/endpoint/retrieve-invoice",
+              "api-reference/endpoint/commit-invoice",
+              "api-reference/endpoint/void-invoice"
+            ]
+          },
+          {
+            "group": "CreditNote",
+            "pages": [
+              "api-reference/endpoint/create-credit-note",
+              "api-reference/endpoint/retrieve-credit-note",
+              "api-reference/endpoint/commit-credit-note",
+              "api-reference/endpoint/void-credit-note"
+            ]
+          },
+          {
+            "group": "Authentication",
+            "pages": [
+              "api-reference/endpoint/validate-credentials"
+            ]
+          },
+          {
+            "group": "Health",
+            "pages": [
+              "api-reference/endpoint/fetch-the-health-status-of-the-service-provider"
+            ]
+          }
           ]
       },
       {"group": "Location Validation",
       "pages": [
-        "api-reference/authentication/validate-credentials",
-        "api-reference/health/fetch-the-health-status-of-the-service-provider",
+        {
+          "group": "Authentication",
+          "pages": [
+        "api-reference/authentication/validate-credentials"
+          ]
+        },
+        {
+          "group": "Health",
+          "pages": [
+        "api-reference/health/fetch-the-health-status-of-the-service-provider"
+          ]
+        },
+        {
+          "group": "LocationValidate",
+          "pages": [
         "api-reference/locationvalidate/validate-the-location-of-customer-with-given-evidences"
+          ]
+        }
+        
        ]
    },
 
    {"group": "Taxes Service Adapter SPI",
       "pages": [
+        {
+          "group": "Address",
+          "pages": [
           "api-reference/address/address-validation",
-           "api-reference/address/check-taxability",
-           "api-reference/taxestimate/estimate-tax",
-           "api-reference/taxestimate/estimate-tax-1",
-           "api-reference/invoice/create-invoice",
+           "api-reference/address/check-taxability"
+          ]
+        },
+        {
+          "group": "TaxEstimate",
+          "pages": [
+          "api-reference/taxestimate/estimate-tax",
+           "api-reference/taxestimate/estimate-tax-1"
+          ]
+        },
+        {
+          "group": "Invoice",
+          "pages": [
+          "api-reference/invoice/create-invoice",
            "api-reference/invoice/retrieve-invoice",
            "api-reference/invoice/commit-invoice",
-           "api-reference/invoice/void-invoice",
-           "api-reference/creditnote/create-credit-note",
+           "api-reference/invoice/void-invoice"
+          ]
+        },
+        {
+          "group": "CreditNote",
+          "pages": [
+          "api-reference/creditnote/create-credit-note",
            "api-reference/creditnote/retrieve-credit-note",
            "api-reference/creditnote/commit-credit-note",
-           "api-reference/creditnote/void-credit-note",
-           "api-reference/authentication/validate-credentials",
-           "api-reference/health/fetch-the-health-status-of-the-service-provider"
+           "api-reference/creditnote/void-credit-note"
+          ]
+        },
+        {
+          "group": "Authentication",
+          "pages": [
+         "api-reference/authentication/validate-credentials"
+          ]
+        },
+        {
+          "group": "Health",
+          "pages": [
+         "api-reference/health/fetch-the-health-status-of-the-service-provider"
+          ]
+        }  
+           
        ]
    }
   ],
