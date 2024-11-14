@@ -75,8 +75,13 @@
 
     {"group": "Tax Adapter SPI",
          "pages": [
-           "api-reference/endpoint/address-validation",
-           "api-reference/endpoint/check-taxability",
+          {
+            "group": "Address",
+            "pages": [
+              "api-reference/endpoint/address-validation",
+              "api-reference/endpoint/check-taxability"
+            ]
+          },
            "api-reference/endpoint/estimate-tax",
            "api-reference/endpoint/create-invoice",
            "api-reference/endpoint/retrieve-invoice",
