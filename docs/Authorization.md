@@ -1,5 +1,5 @@
 ---
-stoplight-id: 9xurgaw08q8lv
+stoplight-id: upohpgnjav634
 ---
 
 # Authorization
