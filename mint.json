@@ -120,30 +120,6 @@
           }
           ]
       },
-      {"group": "Location Validation",
-      "pages": [
-        {
-          "group": "Authentication",
-          "pages": [
-        "api-reference/authentication/validate-credentials"
-          ]
-        },
-        {
-          "group": "Health",
-          "pages": [
-        "api-reference/health/fetch-the-health-status-of-the-service-provider"
-          ]
-        },
-        {
-          "group": "LocationValidate",
-          "pages": [
-        "api-reference/locationvalidate/validate-the-location-of-customer-with-given-evidences"
-          ]
-        }
-        
-       ]
-   },
-
    {"group": "E-Invoicing",
       "pages": [
         {
