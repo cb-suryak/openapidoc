@@ -8,7 +8,7 @@ stoplight-id: 59vt70pmkm4j3
   This guide explains how to integrate external tax services with Chargebee using the Tax Service Provider Interface (SPI).
 </Note>
 
-## Key Operations
+### Key Operations
 
 When processing checkout sessions and creating invoices for the merchant’s customer, Chargebee needs to perform the following operations:
 
