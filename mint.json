@@ -144,38 +144,12 @@
        ]
    },
 
-   {"group": "Taxes Service Adapter SPI",
+   {"group": "E-Invoicing",
       "pages": [
         {
-          "group": "Address",
+          "group": "PostInvoice",
           "pages": [
-          "api-reference/address/address-validation",
-           "api-reference/address/check-taxability"
-          ]
-        },
-        {
-          "group": "TaxEstimate",
-          "pages": [
-          "api-reference/taxestimate/estimate-tax",
-           "api-reference/taxestimate/estimate-tax-1"
-          ]
-        },
-        {
-          "group": "Invoice",
-          "pages": [
-          "api-reference/invoice/create-invoice",
-           "api-reference/invoice/retrieve-invoice",
-           "api-reference/invoice/commit-invoice",
-           "api-reference/invoice/void-invoice"
-          ]
-        },
-        {
-          "group": "CreditNote",
-          "pages": [
-          "api-reference/creditnote/create-credit-note",
-           "api-reference/creditnote/retrieve-credit-note",
-           "api-reference/creditnote/commit-credit-note",
-           "api-reference/creditnote/void-credit-note"
+          "api-reference/invoice/create-invoice"
           ]
         },
         {
