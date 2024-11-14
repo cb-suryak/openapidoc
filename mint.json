@@ -166,10 +166,39 @@
         }  
            
        ]
+   },
+
+   {"group": "TaxRegistrationValidation",
+      "pages": [
+        {
+          "group": "Authentication",
+          "pages": [
+        "api-reference/authentication/validate-credentials"
+          ]
+        },
+        {
+          "group": "Health",
+          "pages": [
+        "api-reference/health/fetch-the-health-status-of-the-service-provider"
+          ]
+        },
+        {
+          "group": "TrnValidate",
+          "pages": [
+        "api-reference/trnvalidate/validate-the-tax-registration-numbers-in-batch",
+        "api-reference/trnvalidate/validate-the-tax-registration-number",
+        "api-reference/trnvalidate/get-the-response-of-tax-registration-number-validate-request",
+        "api-reference/trnvalidate/get-the-response-of-batch-of-tax-registration-numbers",
+        "api-reference/trnvalidate/delete-the-request-of-batch-of-tax-registration-numbers-validation"
+
+          ]
+        }
+        
+       ]
    }
   ],
 
-  "openapi": ["/api-reference/bundled.yml", "/api-reference/locationValidation.yaml", "/api-reference/openapi_tax_versions.yaml"],
+  "openapi": ["/api-reference/bundled.yml", "/api-reference/locationValidation.yaml", "/api-reference/openapi_tax_versions.yaml", "/api-reference/TaxRegistrationValidation.yaml"],
 
 
   "footerSocials": {
