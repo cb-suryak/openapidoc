@@ -1,0 +1,53 @@
+---
+title: 'Tax Service Integration Overview'
+description: 'Learn how to integrate tax services with Chargebee for automated tax calculations'
+---
+
+<Note>
+  This guide explains how to integrate external tax services with Chargebee using the Tax Service Provider Interface (SPI).
+</Note>
+Key Operations
+Chargebee performs the following critical operations when processing checkout sessions and creating invoices:
+<CodeGroup>
+  - Validating customer shipping addresses for tax calculation
+  - Estimating applicable taxes for invoices and line items
+  - Submitting invoice and credit note documents for tax reconciliation
+  - Validating shipping addresses for product delivery
+</CodeGroup>
+External Service Types
+<Card
+title="Supported Tax Services"
+icon="calculator"
+
+
+Chargebee integrates with two types of external services:
+
+Tax service providers with calculation APIs
+Merchant's in-house tax calculation software
+</Card>
+
+
+Integration Architecture
+The integration between Chargebee and tax services is facilitated through a tax service adapter that implements the Tax Service Provider Interface (SPI). This adapter acts as a connector between your service and Chargebee's system.
+Who Should Implement
+This integration is relevant for:
+<CardGroup cols={2}>
+  <Card
+    title="Tax Service Providers"
+    icon="building"
+  >
+    Companies offering tax calculation services wanting to integrate with Chargebee
+  </Card>
+  <Card
+    title="Merchants"
+    icon="store"
+  >
+    Businesses looking to connect their in-house tax calculation software
+  </Card>
+  <Card
+    title="System Integrators"
+    icon="code"
+  >
+    Teams building connectors between tax services and Chargebee
+  </Card>
+</CardGroup>
